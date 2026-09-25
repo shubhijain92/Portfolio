@@ -1,0 +1,83 @@
+/* Generated from Figma Variables. First mode = :root default.
+   FLOAT tokens are unitless — multiply by 1px in calc() where a length is needed. */
+
+:root {
+  --10: 10;
+  --20: 20;
+  --2: 2;
+  --4: 4;
+  --background-brand-default: var(--brand-800); /* @kind color */
+  --background-danger-default: var(--red-500); /* @kind color */
+  --background-danger-hover: var(--red-600); /* @kind color */
+  --background-danger-tertiary-hover: var(--red-200); /* @kind color */
+  --background-disabled-default: var(--brand-300); /* @kind color */
+  --blue: rgb(0,28,86); /* @kind color */
+  --body-font-family: var(--family-sans);
+  --body-font-weight-regular: var(--weight-regular);
+  --body-size-medium: var(--scale-03);
+  --border-danger-default: var(--red-700); /* @kind color */
+  --border-danger-secondary: var(--red-600); /* @kind color */
+  --border-disabled-default: var(--brand-400); /* @kind color */
+  --border-neutral-default: var(--slate-900); /* @kind color */
+  --border-positive-tertiary: var(--green-500); /* @kind color */
+  --brand-100: rgb(245,245,245); /* @kind color */
+  --brand-300: rgb(217,217,217); /* @kind color */
+  --brand-400: rgb(179,179,179); /* @kind color */
+  --brand-500: rgb(117,117,117); /* @kind color */
+  --brand-600: rgb(68,68,68); /* @kind color */
+  --brand-700: rgb(56,56,56); /* @kind color */
+  --brand-800: rgb(44,44,44); /* @kind color */
+  --dark-grey: rgb(112,112,112); /* @kind color */
+  --darker-grey: rgb(73,80,87); /* @kind color */
+  --family-sans: "Inter";
+  --gray-900: rgb(30,30,30); /* @kind color */
+  --green-500: rgb(20,174,92); /* @kind color */
+  --green-600: rgb(0,153,81); /* @kind color */
+  --grey: rgb(227,226,225); /* @kind color */
+  --icon-danger-default: var(--red-700); /* @kind color */
+  --icon-danger-on-danger: var(--red-100); /* @kind color */
+  --icon-default-default: var(--gray-900); /* @kind color */
+  --icon-disabled-on-disabled: var(--brand-400); /* @kind color */
+  --radius-200: 8;
+  --red-1000: rgb(48,6,3); /* @kind color */
+  --red-100: rgb(254,233,231); /* @kind color */
+  --red-200: rgb(253,211,208); /* @kind color */
+  --red-400: rgb(244,119,106); /* @kind color */
+  --red-500: rgb(236,34,31); /* @kind color */
+  --red-600: rgb(192,15,12); /* @kind color */
+  --red-700: rgb(144,11,9); /* @kind color */
+  --scale-03: 16;
+  --slate-100: rgb(243,243,243); /* @kind color */
+  --slate-900: rgb(48,48,48); /* @kind color */
+  --space-200: 8;
+  --space-300: 12;
+  --stroke-border: 1;
+  --text-danger-default: var(--red-700); /* @kind color */
+  --text-danger-on-danger: var(--red-100); /* @kind color */
+  --text-disabled-default: var(--brand-400); /* @kind color */
+  --text-disabled-on-disabled: var(--brand-400); /* @kind color */
+  --weight-regular: 400;
+  --white-1000: rgb(255,255,255); /* @kind color */
+  --white: rgb(255,255,255); /* @kind color */
+}
+
+:root[data-theme="dark"], .dark {
+  --background-brand-default: var(--brand-100); /* @kind color */
+  --background-danger-default: var(--red-600); /* @kind color */
+  --background-danger-hover: var(--red-700); /* @kind color */
+  --background-danger-tertiary-hover: var(--red-1000); /* @kind color */
+  --background-disabled-default: var(--brand-700); /* @kind color */
+  --border-danger-default: var(--red-200); /* @kind color */
+  --border-danger-secondary: var(--red-400); /* @kind color */
+  --border-disabled-default: var(--brand-600); /* @kind color */
+  --border-neutral-default: var(--slate-100); /* @kind color */
+  --border-positive-tertiary: var(--green-600); /* @kind color */
+  --icon-danger-default: var(--red-200); /* @kind color */
+  --icon-danger-on-danger: var(--red-100); /* @kind color */
+  --icon-default-default: var(--white-1000); /* @kind color */
+  --icon-disabled-on-disabled: var(--brand-400); /* @kind color */
+  --text-danger-default: var(--red-200); /* @kind color */
+  --text-danger-on-danger: var(--red-100); /* @kind color */
+  --text-disabled-default: var(--brand-500); /* @kind color */
+  --text-disabled-on-disabled: var(--brand-400); /* @kind color */
+}
